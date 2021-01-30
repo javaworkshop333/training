@@ -25,6 +25,11 @@ public class BankAccount {// class body
 	float scientificValue=1.12345f; // 5 or 6 precision values
 	double abc=1.123; // 14 or 15 precision values
 	
+	String a="asda123213!@#!@#!@#";
+	String expDate="02/23";
+	byte expMonth=2;
+	short expYear=2023;
+	
 	String name="john#3432432dfds1";
 	char favoriteLetter='#';
 	
