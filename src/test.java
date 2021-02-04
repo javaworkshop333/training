@@ -7,6 +7,8 @@ public class test {
 		p.trip();   // pause here. go to trip method
 		System.out.println("2");
 		
+		Class1 c=new Class1();
+		c.add();
 	}
 
 }
