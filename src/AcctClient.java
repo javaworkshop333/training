@@ -7,7 +7,10 @@ public class AcctClient {
 		
 		acct.add(6, 7);
 		System.out.println(acct.name);
+		System.out.println(acct.a);
 		System.out.println(acct.b);
+		System.out.println(acct.sum);
+		
 	}
 
 }
