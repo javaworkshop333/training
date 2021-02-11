@@ -7,5 +7,5 @@ public class AddressClass {
 	String state;
 	int zip;
 	String country;
-
+	BankAccount ba=new BankAccount();
 }

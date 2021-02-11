@@ -1,9 +1,5 @@
 public class StudentClass {
-	short id;
-	String firstName;
-	String lastName;
-	byte age;
-	byte grade;
-	AddressClass address;
-// control + N
+	String name="john";
+	byte age=10;
+	byte grade=5;
 }
