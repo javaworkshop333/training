@@ -6,7 +6,9 @@ public class Class1 {
 // give back control to caller program
 	}
 	public int sub(   ) {
-		System.out.println("b");
+
+			// control flows
+			// operators
 		return 1;
 	}
 	public int mul(    ) {
