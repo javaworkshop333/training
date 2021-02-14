@@ -54,7 +54,7 @@ public class ControlFlow {
 		
 		for(int i=1; i<=4 ; i++) {
 			System.out.println("hi");
-			if( i==2 )
+			if( i==1 )
 				continue;
 			else if ( i==3 )
 				break;
@@ -109,6 +109,30 @@ public class ControlFlow {
 		
 		System.out.println("done with while loop");
 		
-		
+		int op=1;
+		switch (op)
+		{
+			case 1:
+				System.out.println("in one");
+				break;
+			case 2:
+				System.out.println("in two");
+				break;
+			case 3:
+				System.out.println("in three");
+				break;
+			default:
+				System.out.println("in default");
+				break;			
+		}
+		System.out.println("outside switch loop");
+		/*
+		 switch case 
+1) does not automatically exit.
+every case block should end with break;
+2) Used for primitive data types or string.
+3) not to use for boolean checks.
+4) faster than if else. jump table
+		 */
 	}
 }
