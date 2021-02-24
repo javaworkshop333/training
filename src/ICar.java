@@ -6,4 +6,8 @@ public interface ICar {
 	public void drive();
 	public void start();
 	public void stop();
+	default void makeTurns() {
+		// a=30;
+		System.out.println("making turns");
+	}
 }

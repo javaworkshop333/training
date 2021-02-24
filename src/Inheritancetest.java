@@ -11,9 +11,10 @@ public class Inheritancetest {
 		ICar i=new NissanZ();
 		// methods call and variables access -
 		// look at  datatype 
-		z.takeReverse();// look at methods in z datatype(NissanZ)
-		n.takeReverse();// look at methods in n datatype(Nissan)
-		i.takeReverse();// look at methods in i datatype(ICar)
+		z.makeTurns();
+	//	z.takeReverse();// look at methods in z datatype(NissanZ)
+		//n.takeReverse();// look at methods in n datatype(Nissan)
+		//i.takeReverse();// look at methods in i datatype(ICar)
 		System.out.println(  ((NissanZ)i).c  );
 	}
 

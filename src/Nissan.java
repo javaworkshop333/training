@@ -7,7 +7,17 @@
 // implemented 2 of those responsbilites(drive, start)
 // pending 2 of the respo (stop, play music)
 public abstract  class Nissan implements ICar, IMusic{
+	public Nissan() {
+		
+	}
+	
 	int b=30;
+	public void makeTurns() {
+		System.out.println("making fancy turns");
+		IMusic.super.makeTurns();
+		ICar.super.makeTurns();
+	}
+	
 	public void drive(){
 		System.out.println(a);
 		//a=20;

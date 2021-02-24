@@ -3,6 +3,7 @@
 // pending 2 of the respo (stop, play music) 
 public class NissanZ extends Nissan{
 	int c=40;
+	 
 	public void stop(){
 		System.out.println(b);
 		b=40;
