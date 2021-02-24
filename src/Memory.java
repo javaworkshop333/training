@@ -1,6 +1,6 @@
 
 public class Memory {
-	int a; // primitive , global and has default value
+	public int a; // primitive , global and has default value
 	AddressClass b=new AddressClass();//complex
 	boolean c; // primitive
 	AddressClass d=new AddressClass();//complex
@@ -10,7 +10,7 @@ public class Memory {
 	String s1;
 	
 	
-	public void abc() {
+	private void abc() {
 		System.out.println( a  );
 	}
 	public void def() {
