@@ -4,7 +4,8 @@ public  class Cal {
 		int sum=a+b;
 		return sum;
 	}
-	public void add(String a, String  b) {
+	public static void add(String a, String  b) {
 		System.out.println( a + b);
+		
 	}
 }

@@ -9,7 +9,7 @@ public int a(int c) {
 	return 1;
 }
 	// METHOD DECLARATION
-	public int sub(int a,float b) {
+	public static int sub(int a,float b) {
 		// options for return statement
 		// 1) return LITERAL value of type int(number)
 		// 2) return a variable of same type
@@ -19,7 +19,7 @@ public int a(int c) {
 		return abcd;
 	}
 	// parameter = input/info holder
-	public float mul(int a,float b,boolean c) {
+	public static float mul(int a,float b,boolean c) {
 		System.out.println(a);
 		int p=10;
 		boolean q=true;
@@ -28,8 +28,11 @@ public int a(int c) {
 		// return 10.2f;
 		return r;
 	}
+	int aa=10; // private backyard
+	static int bb=10; // public park
+	
 	// method declaration
-	public int add(int a, int b) {
+	public static int add(int a, int b) {
 		// a has 123, b has 10
 		System.out.println(a);
 		System.out.println(b);
