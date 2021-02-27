@@ -1,10 +1,10 @@
 package javaTutorial.chapter16;
 
-public class TestString {
+public class TestString  {
 
 	public static void main(String args[])
 	{
-		String name="john doe";
+		String name="john doe"; // group/array of character
 		// String is a array of characters.. same as array index starts at zero
 		
 		// get first character (indexed zero) from the string
@@ -14,7 +14,7 @@ public class TestString {
 		// return true if input exist inside name variable value
 		System.out.println(name.contains("oh"));// @
 		// return true if name variable value ends with input 		
-		System.out.println(name.endsWith("hn"));//.com
+		System.out.println(name.endsWith("hn"));//.com  
 		// return true if name variable value is equal to input	, case should match as well
 		System.out.println(name.equals(" FIRST name ")); // John john 
 		// return true if name variable value is equal to input	, case need not match		
@@ -27,7 +27,8 @@ public class TestString {
 		// same as contains method, except it returns the index position of input last occurence
 		System.out.println(name.lastIndexOf("o")); // 14 8 123 8 123
 		// replace all occurence of the input1 with input2
-		System.out.println(name.replaceAll("o", "a"));
+		System.out.println(name.replaceAll(" ", "")); // 1232331234,123 233 1234, 1232331234
+		name.replaceAll(" ", "").replaceAll("-", "");
 		// replace first occurence of the input1 with input2
 		System.out.println(name.replaceFirst("o", "a"));
 		// split the string in array of strings by the input "first name" is converted to array containing value first and name
@@ -47,11 +48,11 @@ public class TestString {
 		System.out.println(			phone.substring(0,3)     +"-"+   phone.substring(3,6)  +"-"+   phone.substring(6)   );
 		System.out.println(name.substring(5)); // 1234567890
 		// return substring between starting and ending position provided in inputs
-		System.out.println(name.substring(3, 6));
+		System.out.println(name.substring(3, 6));  // 1234567890
 		// convert all characters in the string to lower case
-		System.out.println(name.toLowerCase());
+		System.out.println(name.toLowerCase()); // name="JOhn" ... "john"
 		// convert all characters in the string to upper case
-		System.out.println(name.toUpperCase());// JoHn john
+		System.out.println(name.toUpperCase());// name="JOhn" ... "JOHN"
 		// remove the white space and next line characters from the string in the begining and end of the string
 		System.out.println(name.trim()); // "    jo hn      "
 
