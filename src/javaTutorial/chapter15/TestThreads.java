@@ -9,24 +9,19 @@ public class TestThreads {
 		
 		PriorityCounter a=new PriorityCounter("thread1");
 		PriorityCounter b=new PriorityCounter("thread2");
-		PriorityCounter c=new PriorityCounter("life support");
-		PriorityCounter d=new PriorityCounter("thread4");
-		PriorityCounter e=new PriorityCounter("thread5");
-		PriorityCounter f=new PriorityCounter("thread6");
+		PriorityCounter c=new PriorityCounter("thread3");
 		
 // thread c has the highest priority and will be granted more cpu execution time , hence will count more.
 // windows has 10 as the max priority and 1 as the least priority. default priority is 5.
 		//System.out.println("Main thread is starting all priority test threads at :"+ThreadStartTime);
 		
 	c.setPriority(Thread.MAX_PRIORITY);
-	//a.setPriority(Thread.MIN_PRIORITY);
+	a.setPriority(Thread.MIN_PRIORITY);
 		
 		a.start();
 		b.start();
 		c.start();
-		d.start();
-		e.start();
-		f.start();
+		
 		
 		System.out.println("Main thread ends now");
 		
