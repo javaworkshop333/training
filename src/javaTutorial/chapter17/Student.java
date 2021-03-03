@@ -2,30 +2,13 @@ package javaTutorial.chapter17;
 
 public class Student implements Comparable<Student> {
 	int score;
+	String name;
 	
 	public Student(String name,int score)
 	{
 		this.name=name;
 		this.score=score;
 	}
-	
-	public int getScore() {
-		return score;
-	}
-
-	public void setScore(int score) {
-		this.score = score;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	String name;
 	
 public int compareTo(Student anotherObject)
 {
